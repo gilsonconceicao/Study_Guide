@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Roboto:wght@300&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    background-color: #242424;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 30px;
+    transition: all .8s;
+}
+
+.titleHeader {
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 6px 10px #5405e7c9;
+}
+
+#imgHeader {
+    width: 50px;
+}
+
+#menu {
+    background-color: #242424;
+    width: 100%;
+    height: 89%;
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    padding: 20px 0;
+    transition: all .5s;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+#menu li {
+    line-height: 4em;
+    margin: 6px;
+}
+
+#menu a {
+    color: white;
+    display: block;
+    padding: 3px 5px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: all .6s;
+}
+
+#menu a:hover {
+  
+    background-color: #5405e7a8;
+    transform: translateY(-10px);
+    letter-spacing: 4px;
+}
+
+#btnOpenMenu {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 27px;
+}
+
+
+
+@media screen and (max-width: 660px) {
+    #menu {
+        top: 45px;
+    }
+
+    #menu a:hover {
+        letter-spacing: 1px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .titleHeader {
+        font-size: 1.5em;
+    }
+}
