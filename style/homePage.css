@@ -80,8 +80,9 @@ footer img {
 }
 
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 400px) {
     .areaConteiner {
-        width: 500px;
+        width: 400px;
+        margin: 10px 30px;
     }
 }

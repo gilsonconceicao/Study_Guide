@@ -20,7 +20,7 @@ header {
 .titleHeader {
     letter-spacing: 2px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-shadow: 2px 6px 10px #5405e7c9;
+
 }
 
 #imgHeader {
@@ -88,5 +88,10 @@ header {
 @media screen and (max-width: 500px) {
     .titleHeader {
         font-size: 1.5em;
+    }
+
+    header {
+        margin: 0;
+        padding:10px 5px;
     }
 }

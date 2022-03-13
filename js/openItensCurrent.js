@@ -1,99 +1,91 @@
-// open itens current fundamentals
+// ----- MOTRAR E OCULTAR BLOCO O1 --------
 
-const btnOpenFundamentals = document.getElementById('btnOpenFundamentals'); 
+const btnOpenBloco01 = document.getElementById('btnOpenBloco#01'); 
 
-btnOpenFundamentals.addEventListener('click', () => {
-    let conteinerFundamentals = document.getElementById('conteinerFundamentals'); 
-    if (conteinerFundamentals.style.display == 'block') {
-        conteinerFundamentals.style.display = 'none';
-        btnOpenFundamentals.innerHTML = '&#9782;' 
+btnOpenBloco01.addEventListener('click', () => {
+    let conteinerBloco01 = document.getElementById('conteinerBloco01'); 
+    if (conteinerBloco01.style.display == 'block') {
+        conteinerBloco01.style.display = 'none';
+        btnOpenBloco01.innerHTML = '&#9782;' 
     } else {
-        conteinerFundamentals.style.display = 'block'; 
-        btnOpenFundamentals.innerHTML = 'X'
+        conteinerBloco01.style.display = 'block'; 
+        btnOpenBloco01.innerHTML = 'X'
     }
 }); 
 
-// open itens current funções 
+// ---------- MOSTRAR E OCULTAR O BLOCO 02 ---------
 
-const btnOpenfuncao = document.getElementById('btnOpenfuncao'); 
+const btnOpenBloco02 = document.getElementById('btnOpenBloco#02'); 
 
-btnOpenfuncao.addEventListener('click', function() {
-    let conteinerFuncaoCurrent = document.getElementById('conteinerFuncaoCurrent'); 
-    if (conteinerFuncaoCurrent.style.display == 'block') {
-        conteinerFuncaoCurrent.style.display = 'none';
-        btnOpenfuncao.innerHTML = '&#9782;' 
+btnOpenBloco02.addEventListener('click', () => {
+    let conteinerBloco02 = document.getElementById('conteinerBloco02'); 
+    if (conteinerBloco02.style.display == 'block') {
+        conteinerBloco02.style.display = 'none';
+        btnOpenBloco02.innerHTML = '&#9782;' 
     } else {
-        conteinerFuncaoCurrent.style.display = 'block'; 
-        btnOpenfuncao.innerHTML = 'X'
+        conteinerBloco02.style.display = 'block'; 
+        btnOpenBloco02.innerHTML = 'X'
     }
 }); 
 
+// ------ MOSTRAR E OCULTAR CONTEINER 03
 
-/* open itens current Object */
+const btnOpenBloco03 = document.getElementById('btnOpenBloco#03'); 
 
-const btnOpenObject = document.getElementById('btnOpenObject'); 
-
-btnOpenObject.addEventListener('click', function() {
-    let conteinerObject = document.getElementById('conteinerObjectCurrent'); 
-
-    if (conteinerObject.style.display == 'block') {
-        conteinerObject.style.display = 'none'; 
-        btnOpenObject.innerHTML = '&#9782;'
+btnOpenBloco03.addEventListener('click', () => {
+    let conteinerBloco03 = document.getElementById('conteinerBloco03'); 
+    if (conteinerBloco03.style.display == 'block') {
+        conteinerBloco03.style.display = 'none';
+        btnOpenBloco03.innerHTML = '&#9782;' 
     } else {
-        conteinerObject.style.display = 'block'; 
-        btnOpenObject.innerHTML = 'X'
+        conteinerBloco03.style.display = 'block'; 
+        btnOpenBloco03.innerHTML = 'X'
     }
-})
+}); 
 
-/* open itens current Object */ 
+/* ------ MOSTRAR E OCULTAR BLOCO 04 --------- */ 
 
-const btnOpenEstrutura = document.getElementById('btnOpenEstrutura'); 
+const btnOpenBloco04 = document.getElementById('btnOpenBloco#04'); 
 
-btnOpenEstrutura.addEventListener('click', function() {
-    let conteinerEstrutura = document.getElementById('conteinerEstruturaCurrent'); 
-
-    if (conteinerEstrutura.style.display == 'block') {
-        conteinerEstrutura.style.display = 'none'; 
-        btnOpenEstrutura.innerHTML = '&#9782';
-
+btnOpenBloco04.addEventListener('click', () => {
+    let conteinerBloco04 = document.getElementById('conteinerBloco04'); 
+    if (conteinerBloco04.style.display == 'block') {
+        conteinerBloco04.style.display = 'none';
+        btnOpenBloco04.innerHTML = '&#9782;' 
     } else {
-        conteinerEstrutura.style.display = 'block'; 
-        btnOpenEstrutura.innerHTML = 'X';
+        conteinerBloco04.style.display = 'block'; 
+        btnOpenBloco04.innerHTML = 'X'
     }
 }); 
 
 
-/* ----- open itens curent Array -------  */
 
-const btnOpenArray = document.getElementById('btnOpenArray');
+/* ------ MOSTRAR E OCULTAR BLOCO 05--------- */ 
 
-btnOpenArray.addEventListener('click', function() {
-    let conteinerArray = document.getElementById('conteinerArrayCurrent'); 
+const btnOpenBloco05 = document.getElementById('btnOpenBloco#05'); 
 
-    if (conteinerArray.style.display == 'block') {
-        conteinerArray.style.display = 'none'; 
-        btnOpenArray.innerHTML = '&#9782'; 
+btnOpenBloco05.addEventListener('click', () => {
+    let conteinerBloco05 = document.getElementById('conteinerBloco05'); 
+    if (conteinerBloco05.style.display == 'block') {
+        conteinerBloco05.style.display = 'none';
+        btnOpenBloco05.innerHTML = '&#9782;' 
     } else {
-        conteinerArray.style.display = 'block'; 
-        btnOpenArray.innerHTML = 'X'
+        conteinerBloco05.style.display = 'block'; 
+        btnOpenBloco05.innerHTML = 'X'
     }
 }); 
 
+/* ------ MOSTRAR E OCULTAR BLOCO 06 --------- */ 
 
-/* ----- open itens curent Loop For -------  */
+const btnOpenBloco06 = document.getElementById('btnOpenBloco#06'); 
 
-const btnOpenLoopFor = document.getElementById('btnOpenLoopFor');
-
-btnOpenLoopFor.addEventListener('click', function() {
-    let conteinerLoop = document.getElementById('conteinerLoopForCurrent'); 
-
-    if (conteinerLoop.style.display == 'block') {
-        conteinerLoop.style.display = 'none'; 
-        btnOpenLoopFor.innerHTML = '&#9782'; 
+btnOpenBloco06.addEventListener('click', () => {
+    let conteinerBloco06 = document.getElementById('conteinerBloco06'); 
+    if (conteinerBloco06.style.display == 'block') {
+        conteinerBloco06.style.display = 'none';
+        btnOpenBloco06.innerHTML = '&#9782;' 
     } else {
-        conteinerLoop.style.display = 'block'; 
-        btnOpenLoopFor.innerHTML = 'X'
+        conteinerBloco06.style.display = 'block'; 
+        btnOpenBloco06.innerHTML = 'X'
     }
-})
-
-
+}); 
