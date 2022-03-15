@@ -10,56 +10,59 @@
 </head>
 <body>
     <header>
-        <h1 class="titleHeader">Guia de Estudos</h1>
         <button id="btnOpenMenu">&#9776;</button>
+        <h1 class="titleHeader">Guia de Estudos</h1>
+        <div></div>
     </header>
-    <aside id="menu">
-        <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="htmlPage.html">GUIA DE HTML</a></li>
-            <li><a href="#">GUIA DE CSS</a></li>
-            <li><a href="javascriptPage.html">GUIA DE JAVASCRIPT</a></li>
-            <li><a href="aboutme.html">ABOUT ME</a></li>
-        </ul>
-    </aside>
-    <!-- section destaque -->
-    <main>
-        <section id="conteinerDiv">
-            <div class="areaConteiner">
-                <div class="itenConteiner">
-                    <img src="img/html-5.png" alt="html-5.png">
-                    <br>
-                   <a class="linkConteiner" href="htmlPage.html"> HTML</a>
-                   
-                </div>
-            </div>
-            <div class="areaConteiner">
-                <div class="itenConteiner">
-                    <img src="img/css-3.png" alt="css-3.png">
-                    <br>
-                    <p class="msg">Está sendo desenvolvido...</p>
-                    <!-- <a onclick="msgPendente()" class="linkConteiner" href="#">CSS</a> -->
-                    
-                </div>
-            </div>
-            <div class="areaConteiner">
-                <div class="itenConteiner">
-                    <img src="img/js.png" alt="js.png">
-                    <br>
-                    <a class="linkConteiner" href="javascriptPage.html">JAVASCRIPT</a>
-                </div>
-            </div>
+    <div class="layoutPage">
+        <aside id="menu">
+            <ul id="itensMenu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="htmlPage.html">GUIA DE HTML</a></li>
+                <li><a href="#">GUIA DE CSS</a></li>
+                <li><a href="javascriptPage.html">GUIA DE JAVASCRIPT</a></li>
+                <li><a href="aboutme.html">ABOUT ME</a></li>
+            </ul>
+        </aside>
+        <!-- section destaque -->
+            <main id="pagePrincipal">
+                <section id="conteinerDiv">
+                    <div class="areaConteiner">
+                        <div class="itenConteiner">
+                            <img src="img/html-5.png" alt="html-5.png">
+                            <br>
+                           <a class="linkConteiner" href="htmlPage.html"> HTML</a>
             
-        </section>
-    </main>
-    <footer>
-        <a href="https://github.com/juniorsantos02" target="_blank">
-            <img src="icons/github.svg" alt="github.svg">
-        </a>
-        <a href="https://www.instagram.com/juniior_santos_02/" target="_blank">
-            <img src="icons/instagram.svg" alt="instagram.svg">
-        </a>
-    </footer>
+                        </div>
+                    </div>
+                    <div class="areaConteiner">
+                        <div class="itenConteiner">
+                            <img src="img/css-3.png" alt="css-3.png">
+                            <br>
+                            <p class="msg">Está sendo desenvolvido...</p>
+                            <a class="linkConteiner" href="#">CSS</a> 
+            
+                        </div>
+                    </div>
+                    <div class="areaConteiner">
+                        <div class="itenConteiner">
+                            <img src="img/js.png" alt="js.png">
+                            <br>
+                            <a class="linkConteiner" href="javascriptPage.html">JAVASCRIPT</a>
+                        </div>
+                    </div>
+            
+                </section>
+            <footer>
+                <a href="https://github.com/juniorsantos02" target="_blank">
+                    <img src="icons/github.svg" alt="github.svg">
+                </a>
+                <a href="https://www.instagram.com/juniior_santos_02/" target="_blank">
+                    <img src="icons/instagram.svg" alt="instagram.svg">
+                </a>
+            </footer>
+        </main>
+    </div>
 </body>
 <script src="js/menu.js"></script>
 </html>

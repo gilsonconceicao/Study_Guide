@@ -10,19 +10,21 @@
 </head>
 <body>
     <header>
-        <h1 >About Me </h1>
         <button id="btnOpenMenu">&#9776;</button>
+        <h1 class="titleHeader">Guia de Estudos</h1>
+        <div></div>
     </header>
-    <aside id="menu">
-        <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="htmlPage.html">GUIA DE HTML</a></li>
-            <li><a href="#">GUIA DE CSS</a></li>
-            <li><a href="javascriptPage.html">GUIA DE JAVASCRIPT</a></li>
-            <li><a href="aboutme.html">ABOUT ME</a></li>
-        </ul>
-    </aside>
-    <section>
+    <div class="layoutPage">
+        <aside id="menu">
+            <ul id="itensMenu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="htmlPage.html">GUIA DE HTML</a></li>
+                <li><a href="#">GUIA DE CSS</a></li>
+                <li><a href="javascriptPage.html">GUIA DE JAVASCRIPT</a></li>
+                <li><a href="aboutme.html">ABOUT ME</a></li>
+            </ul>
+        </aside>
+    <section id="pagePrincipal">
         <div id="conteinerAbout">
             <div class="imageList">
                 <div class="aboutImageName">
@@ -50,6 +52,7 @@
             </div>
         </div>
     </section>
+    </div>
 </body>
 <script src="js/menu.js "></script>
 </html>

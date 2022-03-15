@@ -6,63 +6,46 @@
     margin: 0;
 }
 
-
 header {
-    background-color: #242424;
+    background-color: #222222;
     color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 7px 30px;
-    transition: all .8s;
-}
-
-.titleHeader {
-    letter-spacing: 2px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-}
-
-#imgHeader {
-    width: 50px;
+    padding: 10px 20px;
 }
 
 #menu {
-    background-color: #242424;
-    width: 100%;
-    height: 89%;
-    display: none;
-    position: absolute;
-    top: 50px;
-    right: 0;
-    padding: 20px 0;
-    transition: all .5s;
+    background-color: #222222;
+    width: 0;
+    height: 91vh;
+    transition: all .8s;
 }
 
 #menu ul {
+    display: none;
     list-style-type: none;
     margin: 0;
 }
 
 #menu li {
-    line-height: 4em;
-    margin: 6px;
+    line-height: 6em;
 }
 
 #menu a {
-    color: white;
     display: block;
-    padding: 3px 5px;
-    font-size: 20px;
+    color: white;
     text-decoration: none;
-    transition: all .6s;
+    font-size: 20px;
+    padding: 0 20px;
 }
 
 #menu a:hover {
-  
-    background-color: #5405e7a8;
-    transform: translateY(-10px);
-    letter-spacing: 4px;
+    background-color: #f5f5dc10;
+}
+
+.layoutPage {
+    display: flex;
 }
 
 #btnOpenMenu {
@@ -77,9 +60,8 @@ header {
 
 @media screen and (max-width: 660px) {
     #menu {
-        top: 45px;
+        top: 52px;
     }
-
     #menu a:hover {
         letter-spacing: 1px;
     }
@@ -92,6 +74,22 @@ header {
 
     header {
         margin: 0;
-        padding:10px 5px;
+        padding: 10px 10px;
+    }
+
+    header h1 {
+        font-size: 1.4em;
+    }
+
+    #menu {
+        position: absolute;
+        top: 50px;
+        left: 0;
+        
+    }
+    
+    #menu a {
+        display: block;
+        line-height: 4em;
     }
 }

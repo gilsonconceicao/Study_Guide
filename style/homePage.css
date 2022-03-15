@@ -17,10 +17,13 @@ body {
 
 /* AREA DE DESTAQUE DA PAGINA*/
 
+main {
+    margin: auto;
+}
+
 #conteinerDiv{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -28,8 +31,9 @@ body {
     background-color: #242424;
     border-radius: 3px;
     box-shadow: 0px 20px 40px #0800147e;
-    width: 300px;
+    max-width: 250px;
     height: 400px;
+    padding: 20px;
     margin: 3%;
 }
 
@@ -64,6 +68,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 30px 0;
 }
 
 footer a {
@@ -80,9 +85,12 @@ footer img {
 }
 
 
-@media screen and (max-width: 400px) {
-    .areaConteiner {
-        width: 400px;
-        margin: 10px 30px;
+@media screen and (max-width: 800px) {
+    #conteinerDiv{
+        display: flex; 
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
     }
+
 }
