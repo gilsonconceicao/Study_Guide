@@ -4,65 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guia de Estudos</title>
-    <link rel="stylesheet" href="style/homePage.css">
-    <link rel="stylesheet" href="style/headerPage.css">
+    <title>Project</title>
+    <link rel="stylesheet" href="style/projectPractice.css">
 </head>
 <body>
     <header>
-        <button id="btnOpenMenu">&#9776;</button>
-        <h1 class="titleHeader">Guia de Estudos</h1>
-        <div></div>
+        <h1>Study guide</h1>
+        <div>
+            <a class="btnHomePage" href="letsgo.html">let's go</a>
+        </div>
     </header>
-    <div class="layoutPage">
-        <aside id="menu">
-            <ul id="itensMenu">
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="htmlPage.html">GUIA DE HTML</a></li>
-                <li><a href="#">GUIA DE CSS</a></li>
-                <li><a href="javascriptPage.html">GUIA DE JAVASCRIPT</a></li>
-                <li><a href="aboutme.html">ABOUT ME</a></li>
-            </ul>
-        </aside>
-        <!-- section destaque -->
-            <main id="pagePrincipal">
-                <section id="conteinerDiv">
-                    <div class="areaConteiner">
-                        <div class="itenConteiner">
-                            <img src="img/html-5.png" alt="html-5.png">
-                            <br>
-                           <a class="linkConteiner" href="htmlPage.html"> HTML</a>
-            
-                        </div>
+
+    <main class="areaEmphasis">
+        <section>
+            <div class="layoutEmphasis">
+                <div class="areaTextEmphasis">
+                    <article>
+                        <h2>Study Guide - Languages</h2>
+                        <p>Aqui você vai aprender a criar aplicações web reais, de forma didática e com exemplos de acordo com o assunto. Juntando os três pilares da web que são: <span>HTML | CSS | JAVASCRIPT</span> você aprenderá a desenvolver sites. Além de tudo isso, você terá dicas no meio dessa jornada, vamos lá!</p>
+                    </article>
+                    <a class="btnHomePage" href="letsgo.html">let's go</a>
+                </div>
+                <div class="areaTextEmphasis">
+                    <h2>Web Developer Guide</h2>
+                    <div id="imgReference">
+                        <img title="JAVASCRIPT" src="img/js.png" alt="js.png">
+                        <img title="HTML" src="img/html-5.png" alt="html.png">
+                        <img title="CSS" src="img/css-3.png" alt="css-3.png">
                     </div>
-                    <div class="areaConteiner">
-                        <div class="itenConteiner">
-                            <img src="img/css-3.png" alt="css-3.png">
-                            <br>
-                            <p class="msg">Está sendo desenvolvido...</p>
-                            <a class="linkConteiner" href="#">CSS</a> 
-            
-                        </div>
-                    </div>
-                    <div class="areaConteiner">
-                        <div class="itenConteiner">
-                            <img src="img/js.png" alt="js.png">
-                            <br>
-                            <a class="linkConteiner" href="javascriptPage.html">JAVASCRIPT</a>
-                        </div>
-                    </div>
-            
-                </section>
-            <footer>
-                <a href="https://github.com/juniorsantos02" target="_blank">
-                    <img src="icons/github.svg" alt="github.svg">
-                </a>
-                <a href="https://www.instagram.com/juniior_santos_02/" target="_blank">
-                    <img src="icons/instagram.svg" alt="instagram.svg">
-                </a>
-            </footer>
-        </main>
-    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
-<script src="js/menu.js"></script>
 </html>

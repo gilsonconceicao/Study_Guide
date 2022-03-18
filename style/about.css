@@ -8,7 +8,7 @@
 }
 
 body {
-    background-image: linear-gradient(to left, #1a0175, #6500e9);
+    background-image: linear-gradient(to left, #1f2423, #171a18);
 }
 
 section  {
@@ -67,7 +67,9 @@ section  {
 
 .iconsList a {
     color: #ffffff;
-    background-color: #5f16e6af;
+    background-color: #1BFD9C;
+    color: black;
+    font-weight: bold;
     letter-spacing: 1px;
     display: flex;
     align-items: center;
@@ -80,7 +82,7 @@ section  {
 }
 
 .iconsList a:hover {
-    background-color: #310780af;
+    background-color: #01ac62;
     color: white;
     padding: 10px 0 ;
 }

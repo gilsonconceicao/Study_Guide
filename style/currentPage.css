@@ -8,7 +8,7 @@
 
 
 body {
-    background-image: linear-gradient(to left, #1b0277, #440499);
+    background-image: linear-gradient(to left, #1f2423, #171a18);
 }
 
 /* estilos padrão */
@@ -75,7 +75,7 @@ h4 {
 }
 
 .destaquePage {
-    background-color: #2b2b2b;
+    background-color: #010f20;
     box-shadow: 0px 0px 10px #000000;
     color: #ffffff;
     border-radius: 4px;
@@ -118,7 +118,7 @@ h4 {
 /* fundamentos aprendizados conteiners */
 
 .titlesCurrents {
-    background-color: #222020;
+    background-color: #010f20;
     color: white;
     margin: 0 10px;
     border-radius: 4px;
@@ -156,7 +156,7 @@ h4 {
 /* -------- titulos itens  --------- */
 
 .articlesCurrentItens {
-    background-color: #27272794;
+    background-color: #010f20c2;
     color: white;
     border-radius: 10px;
     box-shadow: 0px 0px 10px #0000008c;
