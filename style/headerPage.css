@@ -88,12 +88,7 @@ header h1 {
         font-size: 1.4em;
     }
 
-    #menu {
-        position: absolute;
-        top: 50px;
-        left: 0;
-        
-    }
+    
     
     #menu a {
         display: block;

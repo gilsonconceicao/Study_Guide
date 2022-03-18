@@ -6,6 +6,10 @@
     margin: 0;
 }
 
+body {
+    background-image: linear-gradient(to left, #1f2423, #171a18);
+}
+
 /* header */
 
 header {
@@ -40,7 +44,6 @@ header h1 {
 
 .areaTextEmphasis {
     color: white;
-    border-bottom: 2px solid #00ffaa2d;
     max-width: 800px;
     margin: 5% auto;
     transition: all .6s;
@@ -92,7 +95,7 @@ header h1 {
 #imgReference img {
     cursor: pointer;
     display: block;
-    width: 120px;
+    width: 20%;
     padding: 10px ;
     transition: all .6s;
 }
@@ -110,6 +113,17 @@ header h1 {
     transition: all .6s;
 }
 
+/* division and section */
+
+.divisionSection {
+    background-image: linear-gradient(to left, #540bffe3, #520ac7);
+    border-radius: 50% 50% 0% 100% / 100% 100% 0% 0%  ; 
+    filter: drop-shadow(0 0 0.5em #6200ff70);
+    max-width: 700px;
+    margin: auto;
+    padding: 0 50px;
+    height: 30px;
+}
 
 /* page buttons  */
 
@@ -158,9 +172,16 @@ header h1 {
    
 @media screen and (max-width: 700px) {
 
-    header button {
-        display: none;
-    } 
+    header {
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+
+    #btnMenu {
+        display: block;
+        margin: auto;
+    }
 
     header h1 {
         padding-top: 0px;
@@ -175,5 +196,9 @@ header h1 {
 
     .areaTextEmphasis {
         padding: 60px 30px;
+    }
+
+    .layoutEmphasis {
+        padding: 10px;
     }
 }
